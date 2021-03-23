@@ -133,7 +133,7 @@ public class IntroToJava {
             i++;
         }
 
-        // in do-while  once the code get execute with checking condition
+        // in do-while  once the code get execute without checking condition
         int j = 0;
         do {
             System.out.println("Hello");
