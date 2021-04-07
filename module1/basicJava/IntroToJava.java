@@ -43,6 +43,10 @@ public class IntroToJava {
         String StringData = "This is a string";
         boolean booleanType  = true;  // false
 
+
+        // Finding size of datatypes 
+        System.out.println(Byte.SIZE);  // output- 8 which will be in terms of bits 
+
         // Type casting
         int $integer  = 10;
         double $double = $integer; // this is converted by compiler
