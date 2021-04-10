@@ -60,6 +60,20 @@ public class IntroToJava {
 
 
         // =================================================>>>>>>>>
+        
+        //Declaration of String in different form
+        //1
+        String stringName = "Hello world";
+        
+        //2
+        char[] arrayString = {'H', 'e', 'l', 'l', 'o'};
+        
+        //3
+        String _string = new String(arrayString);
+        
+        //4
+        String _2string = new String("Hello world");
+        
         // String Methods
         String word1 = "Hello-";
         String word2 = "World";
