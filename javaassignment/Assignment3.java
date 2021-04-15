@@ -18,7 +18,7 @@ public class IplTeams {
     			+ "\n8- Delhi Capitals");
 
     	
-    	String[] Srh = new String[] {"David Warner (R) Batsman", 
+    	String[] srh = new String[] {"David Warner (R) Batsman", 
     			"Manish Pandey (R) Batsman",
     			"Kane Williamson (R) Batsman", 
     			"Jonny Bairstow (R) Wicket Keeper", 
@@ -29,6 +29,21 @@ public class IplTeams {
     			"T Natarajan (R) Bowler", 
     			"Khaleel Ahmed (R) Bowler", 
     			"Mujeeb ur Rahman Bowler"};
+        
+        String[] cskPlayerData = {
+                "Faf du Plessis \t\t\t Batsman",
+                "Ruturaj Gaikwad \t\t Batsman",
+                "Ambati Rayudu \t\t\t Batsman",
+                "Suresh Raina \t\t\t Batsman",
+                "Sam Curran \t\t\t\t All-Rounder",
+                "M.S. Dhoni (C/WK) \t\t Wicket-keeper",
+                "Ravindra Jadeja \t\t All-Rounder",
+                "Moeen Ali \t\t\t\t All-Rounder",
+                "Shardul Thakur \t\t\t Bowler",
+                "Deepak Chahar \t\t\t Bowler",
+                "Imran Thair \t\t\t Bowler"
+
+        };
     	
     	int userChoice;
         Scanner input = new Scanner(System.in);
@@ -40,8 +55,8 @@ public class IplTeams {
         switch (userChoice){
             case 1: {
             	System.out.println("Sun Risers Complete SQUAD for IPL 2021: ");
-                for(int i=0; i<11; i++) {
-                	System.out.println(Srh[i]);
+                for(int i=0; i< srh.length; i++) {
+                	System.out.println(srh[i]);
                 }
             	
             }
@@ -51,7 +66,10 @@ public class IplTeams {
             }
             break;
             case 3: {
-              
+                System.out.println("Chennai Super King Complete SQUAD for IPL 2021: ");
+              for (int i = 0; i < cskPlayerData.length; i++){
+                    System.out.println(cskPlayerData[i]);
+                }
 
             }
             break;
