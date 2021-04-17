@@ -5,15 +5,25 @@ import java.util.Scanner;
 class Constructor{
     int length, width, side;
     double radius;
-
+    
+    // Constructor overloading 
+    
+    //Type-1: Default constructor
+    Constructor(){
+        System.out.print("Let's find the area of Shapes\n\n");
+    }
+    
+    //Type-2
     Constructor(int side){
         this.side = side;
     }
-
+    
+    //Type -3
     Constructor(double radius){
         this.radius = radius;
     }
-
+        
+    //Type-4: 
     Constructor(int length, int width){
         this.length = length;
         this.width = width;
@@ -37,6 +47,8 @@ public class JavaConstructor {
         boolean isTrue = true;
 
         while (isTrue){
+            Constructor area = new Constructor();
+            
             System.out.println("Enter 1 - to Find area of Square\n" +
                     "Enter 2 - to Find area of rectangle\n" +
                     "Enter 3 - to Find area of circle\n" +
