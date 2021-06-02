@@ -1,4 +1,3 @@
-package com.company;
 
 interface Covaxin{
     void covaxin_details();
