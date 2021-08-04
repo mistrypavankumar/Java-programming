@@ -1,0 +1,23 @@
+separate/business entity concept
+going concern concept
+money measuring concept
+cost concept
+dual aspect concept
+	captial + liabilities = assets
+
+accounting period concept
+periodic matching of cost concept
+Realization concept --- revenue generated only through sales;
+
+
+accounting convention
+1. convention of Conservation ==> only all the possibel losses been shown 
+2. convention of full discloser ==> both the profit and losses are been shown
+3. convention of consistency ==> follow same accounting practice and method from one period to another. 
+4. Convention of Materiality ==> accountant must give importantance to materail details and must avoid unnecessary/ unimportant details.
+
+Double entry system of book keeping
+-> Journal:  all the transection are recorded on the daily basis in a systematic manner.
+-> Subsidiary: It is a accounting book of original entry in which transection of similar nature are recorded. These are sub-division of Journal book which they are called as "Daily books". There are 8 types of books,
+1/. Purchases book:
+	It record all the credit purchases transections which took place during a day, week or month. At the end of the day, total of the purchase book is transfered to the purchases account.
