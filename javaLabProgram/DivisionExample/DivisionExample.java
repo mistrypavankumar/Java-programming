@@ -14,7 +14,32 @@ public class DivisionExample extends Applet implements ActionListener
     Button div;
 
     public void init() {
-       add(new Label("Hello world"));
+       l1 = new Label("Dividend");
+       l2 = new Label("Divisor");
+       l3 = new Label("Result");
+       l4 = new Label("Remainder");
+       
+       num1 = new TextField(10);
+       num2 = new TextField(10);
+       res = new TextField(10);
+       rem = new TextField(10);
+       
+       div = new Button("Click");
+       div.addActionListener(this);
+       
+       add(l1);
+       add(num1);
+       
+       add(l2);
+       add(num2);
+       
+       add(l3);
+       add(res);
+       
+       add(l4);
+       add(rem);
+       
+       add(div);
 
     }
 
