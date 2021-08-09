@@ -32,6 +32,7 @@ public class AppletForFactorial extends Applet implements ActionListener {
     public void actionPerformed(ActionEvent e){
         if (e.getSource() == b1){
             int fact = fact(Integer.parseInt(t1.getText()));
+            t2.setText(String.valueOf(fact));
         }
     }
 
