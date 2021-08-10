@@ -19,7 +19,7 @@ class Rectangle extends Shape {
         this.length = length;
         this.width = width;
 
-        System.out.println("Rectangle area: "  + (this.length + this.width));
+        System.out.println("Rectangle area: "  + (this.length * this.width));
     }
 }
 
